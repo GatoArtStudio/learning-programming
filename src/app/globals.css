@@ -19,8 +19,13 @@
   }
 }
 
+@font-face {
+  font-family: "Gohu";
+  src: url("/fonts/gohu-font-uni14-nerd-font-regular.ttf") format("truetype");
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Gohu" ,Arial, Helvetica, sans-serif;
 }
